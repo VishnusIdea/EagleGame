@@ -78,7 +78,7 @@
 }
 main{
     background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)),  url(pixel-jeff-clipa-s.gif);
-    background-color: rgb(141, 63, 0);
+    background-color: purple;
    background-repeat: no-repeat ;
    background-size:cover;
     height: 100vh;
