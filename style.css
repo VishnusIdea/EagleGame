@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 430px;
+    left: 771px;
+    transform: translate(-50%,-50%);
+    background: rgb(0,0,0,0.4);
+    text-align: center;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="text"] 
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid purple;
+    padding: 24px 10px;
+    width: 220px;
+    outline: none;
+    color: #fff;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+.box input[type="password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid purple;
+    padding: 24px 10px;
+    width: 220px;
+    outline: none;
+    color: #fff;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+.box input[type="text"]:focus
+{
+    width: 270px;
+    border-color: blue;
+}
+.box input[type="password"]:focus
+{
+    width: 270px;
+    border-color: blue;
+}
+.box input[type="submit"] 
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid blue ;
+    padding: 14px 73px;
+    
+    outline: none;
+    color: #fff;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.box input[type="submit"] :hover{
+    background: blue;
+}
+main{
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)),  url(pixel-jeff-clipa-s.gif);
+    background-color: rgb(141, 63, 0);
+   background-repeat: no-repeat ;
+   background-size:cover;
+    height: 100vh;
+    min-width: 100px;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 37px;
+    min-height: 300px;
+    margin-right: 37px;
+    font-size: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+ul li a :hover{
+    background-color: purple;
+    color:#fff;
+}
+ul li.active a{
+    background-color:purple;
+    color:#fff;
+}
+.logo img{
+    float: left;
+    width: 217px;
+    height: 187px;
+    margin-top: 61px;
+    margin-left: 174px;
+}
+
+
+
+
+
+

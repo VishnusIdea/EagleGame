@@ -1,0 +1,122 @@
+#game{
+    height: 700px;
+    width: 1511px;
+    background-image:url('ghdwiduiud.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border: 4px solid black;
+    margin-left: 0% ;
+    margin-top: 0%;
+    overflow: hidden;
+    position: relative;
+}
+.message{
+    position: absolute;
+    z-index: 10;
+    color: black;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.messageStyle{
+    background: white;
+    padding: 30px;
+    box-shadow: rgba(0,0,0,0.24)0px 3px 8px;
+    border-radius: 5%;
+}
+body{
+    background-color: aliceblue;
+
+}
+#pipel{
+    position: absolute;
+    width: 50px;
+    height: 50%;
+    background-image: url('dsdsd.jpg');
+    transform: rotate(180eg);
+}
+#pipe2{
+    position: absolute;
+    width: 50px;
+    height: 30%;
+    top: 80%;
+    background-image: url('dsdsd.jpg');
+
+}
+.obs{
+    left: 95%;
+    animation: move 4s ease-in-out infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes move {
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: -6%;
+    }
+}
+#bird{
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    
+}
+#bird img{
+    height: 200px;
+    width: 300px;
+}
+
+#score{
+    color:white;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 8vh;
+    position: fixed;
+    z-index: 10;
+    height: 10vh;
+    font-size: 10vh;
+    font-weight: 100;
+    -webkit-text-stroke-width:2px ;
+    top: 0;
+    left: 0;
+    margin:10px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
