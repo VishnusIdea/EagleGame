@@ -6,7 +6,7 @@ function validate()
   if(Enterusername.length<20 && Enterusername!="" && Enterpassword.length<8 && Enterpassword!="")
   {
     alert("login succesfully");
-    window.location.assign("./eagle/test.html");
+    window.location.assign("test.html");
 
   }
   else{
